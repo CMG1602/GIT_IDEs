@@ -16,6 +16,10 @@ public class Principal {
 		// TODO Auto-generated method stub
 		System.out.println("Listado de alumnos 1º DAW");
 		System.out.println("Alumno 1");
+		
+		Alumno alumno = new Alumno("César", "Moro", "12345678A");
+		
+		System.out.println(alumno);
 	}
 
 }
